@@ -15,7 +15,7 @@ const Games = () => {
           <div className="rounded-lg p-[3px] bg-gradient-to-r from-emerald-400 via-pink-400 to-sky-400 lg:col-span-2 md:col-span-2">
             <div className="p-5 bg-black rounded-lg">
               <h1 className="text-2xl font-semibold">
-               Gamified <br /> Healn
+               Gamified <br /> HealN
               </h1>
               <p className="text-sm py-4">
                At HealXYZ, we use our forum to help users Heal X, Y, and Z with 
