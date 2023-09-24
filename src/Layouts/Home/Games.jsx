@@ -15,7 +15,7 @@ const Games = () => {
           <div className="rounded-lg p-[3px] bg-gradient-to-r from-emerald-400 via-pink-400 to-sky-400 lg:col-span-2 md:col-span-2">
             <div className="p-5 bg-black rounded-lg">
               <h1 className="text-2xl font-semibold">
-                Play Stunning <br /> Games
+               Gamified <br /> Healn
               </h1>
               <p className="text-sm py-4">
                At HealXYZ, we use our forum to help users Heal X, Y, and Z with 
@@ -45,7 +45,7 @@ const Games = () => {
             <Image
               className="rounded-lg"
               src={
-                "https://cdn.dribbble.com/userupload/6308728/file/original-85fdcebbb67c6a04ea7b753b2698b29d.png?resize=1024x768"
+                "https://i.imgur.com/RYjwxqs.jpg?resize=1024x768"
               }
               alt="Game Image"
               height={400}

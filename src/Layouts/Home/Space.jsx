@@ -47,8 +47,7 @@ const Space = () => {
           width={100}
         ></Image> */}
         <h1 className="lg:text-4xl text-3xl font-semibold text-center">
-          ❤️ Sacred 
-          <span className="border-b-2 border-red-400">space</span> for <br />{" "}
+          ❤️ A sacred <span className="border-b-2 border-red-400">space</span> for <br />{" "}
           <span className="text-red-500">HealN</span>
         </h1>
         <p className="text-[12px] text-center py-4">

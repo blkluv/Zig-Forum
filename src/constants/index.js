@@ -4,12 +4,12 @@ import { FaForumbee, FaShareAlt, FaInstagram, FaTiktok } from "react-icons/fa";
 // community server data
 export const dcServers = [
   {
-    title: "Join Forum",
+    title: "Forum",
     link: "https://y.healxyz.com",
     icon: <FaForumbee />,
   },
   {
-    title: "Join Waitlist",
+    title: "Waitlist",
     link: "https://getwaitlist.com/waitlist/10645",
     icon: <FaShareAlt />,
   },

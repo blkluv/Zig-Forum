@@ -29,6 +29,7 @@ const Partners = () => {
         trust and transparency are at the core of our mission, empowering 
         individuals to embark on their healing journeys with confidence. 
         <br />
+        <br />
         Dr. Candy Terry (Ph.D. in Metaphysics)
         </p>
       </div>
