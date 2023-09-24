@@ -17,13 +17,12 @@ const Header = () => {
     <div className="bg-gradient-to-r from-amber-100 via-sky-200 to-indigo-100 lg:w-full lg:max-h-screen w-full min-h-screen border border-transparent">
       <div className={`${inter.className} lg:my-20 my-10`}>
         <h1 className="text-center text-sm py-2 font-semibold">
-          The Purpose Economy
+          Join The Purpose Economy
         </h1>
         <div className="relative">
           <h1 className="lg:text-5xl text-4xl text-slate-800 font-bold text-center mt-8">
             Get Paid To Heal
-            <br /> X, Y
-            <br /> & Z
+            <br /> X, Y & Z
           </h1>
           <Image
             className="absolute lg:z-20 lg:top-14 lg:left-20 top-16 left-0 lg:block md:block hidden"
@@ -56,7 +55,7 @@ const Header = () => {
         {/* buttons */}
         <div className="flex flex-col justify-center items-center">
           <button className={primaryBtn}>
-            Go to Discussions{" "}
+            Join Forum{" "}
             <BsChevronRight className="inline-block font-bold" />
           </button>
           {/* Wrap the "Watch video" button with an anchor element */}

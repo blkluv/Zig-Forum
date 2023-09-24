@@ -1,11 +1,11 @@
 import Servers from "@/components/Servers";
 import { dcServers } from "@/constants";
-import { Inter, Roboto } from "next/google-fonts";
+import { Inter, Roboto } from 'next/font/google';
 import Image from "next/image";
 import React from "react";
 
 const inter = Inter({ subsets: ["latin"] });
-const roboto = Roboto({ subsets: ["cyrillic"], weights: ["400", "700"] });
+const roboto = Roboto({ subsets: ["cyrillic"], weight: ["400"] });
 
 const CommunitySection = () => {
   return (
