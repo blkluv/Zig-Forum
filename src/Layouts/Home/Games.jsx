@@ -18,13 +18,13 @@ const Games = () => {
                 Play Stunning <br /> Games
               </h1>
               <p className="text-sm py-4">
-                At HealXYZ, we use our forum to help users Heal X, Y, and Z with 
-                advice and knowledge. It's not just about marketing spirituality
-                services; it's about creating a supportive tribe. We share insights,
-                build trust, and empower our tribe to make informed choices on their
-                healing journey. We're all about genuine healing services and shared
-                wisdom. Leading with your purpose to help others will unlock the
-                spiritual wealth you deserve.
+               At HealXYZ, we use our forum to help users Heal X, Y, and Z with 
+               advice and knowledge. It&apos;s not just about marketing spirituality
+               services; it&apos;s about creating a supportive tribe. We share insights,
+               build trust, and empower our tribe to make informed choices on their
+               healing journey. We&apos;re all about genuine healing services and shared
+               wisdom. Leading with your purpose to help others will unlock the
+               spiritual wealth you deserve.
               </p>
               <div className="my-4 border-2 border-[#171717] px-7 py-3 rounded-md text-semibold hover:bg-[#171717] animate-pulse">
                 <a href="https://y.healxyz.com" className="flex items-center justify-center">
@@ -67,7 +67,7 @@ const Games = () => {
                 living in our upcoming marketplace for authentic
                 HealN services.
               </p>
-              <a href="URL_GOES_HERE">
+              <a href="https://getwaitlist.com/waitlist/10645">
                 <button className="hover:font-bold font-semibold text-sm">
                   Join Waitlist<BsArrowRightShort className="inline-block text-xl" />
                 </button>
