@@ -47,14 +47,12 @@ const Space = () => {
           width={100}
         ></Image> */}
         <h1 className="lg:text-4xl text-3xl font-semibold text-center">
-          Dedicated sp
-          <span className="border-b-2 border-indigo-400">ace</span> for <br />{" "}
-          <span className="text-indigo-400">con</span>
-          versations
+          ❤️ Sacred 
+          <span className="border-b-2 border-red-400">space</span> for <br />{" "}
+          <span className="text-red-500">HealN</span>
         </h1>
-        <p className="text-[8px] text-center py-4">
-          Navigate to feed and discover hundreds of active <br />
-          Communities on different niche
+        <p className="text-[12px] text-center py-4">
+          No judgement zone, we all learning the same lessons. 
         </p>
       </div>
 
@@ -62,13 +60,13 @@ const Space = () => {
         {/* Proximity and visibility */}
         <CustomSection
           customStyle={commonStyels}
-          headerText={"Proximity and Visibility"}
-          sectionHeader={"Fuel Your Coding Curiosity: Join Our Community Today"}
+          headerText={"❌"}
+          sectionHeader={"Monetize your purpose: Join our marketplace waitlist today"}
           sectionDesc={
-            "Communicate, collaborate, and feel more connected in a persistent space that reflects your unique team culture."
+            "Join our marketplace waitlist, refer your friends and enter to a $2500 crystal lamp."
           }
           imageURL={
-            "https://img.freepik.com/free-photo/team-working-animation-project_23-2149269881.jpg?w=740&t=st=1693723425~exp=1693724025~hmac=15664315d9d5a91c2c4a8b3c2df2ee86f0f7d4789bb63b65043992e95f9ef96e"
+            "https://i.imgur.com/IlhK4is.jpg?w=740&t=st=1693723425~exp=1693724025~hmac=15664315d9d5a91c2c4a8b3c2df2ee86f0f7d4789bb63b65043992e95f9ef96e"
           }
         ></CustomSection>
 
@@ -76,28 +74,28 @@ const Space = () => {
         <CustomSection
           customStyle={commonStyels}
           order={"lg:order-first"}
-          headerText={"Serendipitous Moments"}
+          headerText={"✌️"}
           sectionHeader={
-            "Elevate Your Coding Skills: Ask, Share, and Learn with Our Dynamic Feed Feature!"
+            "Our Purpose Is To Connect Those Who Need To Heal With Authentic Heal®️s"
           }
           sectionDesc={
-            "Supercharge Your Coding Skills: Ask, Share, and Flourish with Our Dynamic Feed Feature! Join a thriving community of passionate coders, gain expert insights, and embark on a transformative coding journey filled with confidence, success, and endless learning opportunities."
+            "Ask Y in our forum, Book a HealR in our upcoming marketplace, or monetize your calling on HealXYZ! Join a thriving tribe of passionate HealRs, gain spiritual insights, and embark on a transformative HealN journey."
           }
           imageURL={
-            "https://img.freepik.com/free-photo/ai-site-helping-with-software-production_1268-21620.jpg?w=996&t=st=1693724371~exp=1693724971~hmac=bc92f5d4e00c6ee6859f7ef8343ed41b13e8822a4504b23d185102cd123d32f0"
+            "https://i.imgur.com/iYssete.png?w=996&t=st=1693724371~exp=1693724971~hmac=bc92f5d4e00c6ee6859f7ef8343ed41b13e8822a4504b23d185102cd123d32f0"
           }
         ></CustomSection>
 
         {/*Productive coversations */}
         <CustomSection
           customStyle={commonStyels}
-          headerText={"Productive Conversations"}
-          sectionHeader={"Coding challenge made easy: collaborate and gather"}
+          headerText={"⚡️"}
+          sectionHeader={"For HealRs, By HealRs"}
           sectionDesc={
-            "Coding Problems? Find Solutions, Share Insights, and Chart Your Learning Journey Here!, made a headline for this"
+            "We're not a traditional marketplace trying to tap into trending spirituality communities for profit. We're a nonprofit empowering the for-purpose economy, founded by a married couple who self-funded HealXYZ to empower HealRs."
           }
           imageURL={
-            "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=740&t=st=1693724657~exp=1693725257~hmac=5b47743a876161c9666169a8ab8ec689d62be02ad63206e841c1ea904b5c4c97"
+            "https://i.imgur.com/aGYBYAf.png?w=740&t=st=1693724657~exp=1693725257~hmac=5b47743a876161c9666169a8ab8ec689d62be02ad63206e841c1ea904b5c4c97"
           }
         ></CustomSection>
       </div>

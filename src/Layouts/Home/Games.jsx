@@ -5,9 +5,9 @@ import { BsArrowRightShort } from "react-icons/bs";
 const Games = () => {
   return (
     <div className="bg-black text-white py-10 px-10">
-      <h1 className="pt-10 text-3xl text-center font-bold">Never Get Bored</h1>
+      <h1 className="pt-10 text-3xl text-center font-bold">One Stop HealN Shop</h1>
       <p className="text-xs text-center pt-2 animate-pulse">
-        Play outstanding games in our <br /> dedicated gaming zone //
+        Join Our Forum
       </p>
       <div className="py-lg:32 py-20">
         <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-5">
@@ -18,26 +18,26 @@ const Games = () => {
                 Play Stunning <br /> Games
               </h1>
               <p className="text-sm py-4">
-                Get ready for an exhilarating gaming experience! In our Play
-                Stunning Games section, youll find a carefully curated selection
-                of games that promise hours of excitement. Whether youre a
-                seasoned gamer or just looking to unwind, our games cater to all
-                levels of expertise. From epic quests to mind-bending puzzles
-                and heart-pounding action, our collection has it all. Immerse
-                yourself in breathtaking graphics and captivating storylines.
-                Your adventure starts with a simple click—choose your game and
-                let the excitement begin!
+                At HealXYZ, we use our forum to help users Heal X, Y, and Z with 
+                advice and knowledge. It's not just about marketing spirituality
+                services; it's about creating a supportive tribe. We share insights,
+                build trust, and empower our tribe to make informed choices on their
+                healing journey. We're all about genuine healing services and shared
+                wisdom. Leading with your purpose to help others will unlock the
+                spiritual wealth you deserve.
               </p>
-              <button className="my-4 border-2 border-[#171717] px-7 py-3 rounded-md text-semibold hover:bg-[#171717] animate-pulse">
-                Go to Game
-                <Image
-                  className="inline-block mx-1"
-                  src={"/slash.png"}
-                  alt="Slashing sword"
-                  height={20}
-                  width={20}
-                ></Image>
-              </button>
+              <div className="my-4 border-2 border-[#171717] px-7 py-3 rounded-md text-semibold hover:bg-[#171717] animate-pulse">
+                <a href="https://y.healxyz.com" className="flex items-center justify-center">
+                  Join Our Forum
+                  <Image
+                    className="inline-block mx-1"
+                    src={"/slash.png"}
+                    alt="Slashing sword"
+                    height={20}
+                    width={20}
+                  />
+                </a>
+              </div>
             </div>
           </div>
           {/* 2nd child {group} */}
@@ -53,7 +53,7 @@ const Games = () => {
             ></Image>
             <div className="rounded-lg py-2 px-4 bg-gradient-to-r from-emerald-400 via-pink-400 to-indigo-400 backdrop-blur-md h-full">
               <h1 className="text-md font-semibold">
-                Boost your acitivity
+                Marketplace For Heal®️s
                 <Image
                   className="inline mx-3"
                   src={"/potion.png"}
@@ -63,12 +63,15 @@ const Games = () => {
                 ></Image>
               </h1>
               <p className="text-xs py-2">
-                Boost your mood with our mind triggering Games. Play with your
-                friends and share in your social accounts
+                Monetize your calling to do what you love for a 
+                living in our upcoming marketplace for authentic
+                HealN services.
               </p>
-              <button className="hover:font-bold font-semibold text-sm">
-                Play Now <BsArrowRightShort className="inline-block text-xl" />
-              </button>
+              <a href="URL_GOES_HERE">
+                <button className="hover:font-bold font-semibold text-sm">
+                  Join Waitlist<BsArrowRightShort className="inline-block text-xl" />
+                </button>
+              </a>
             </div>
           </div>
         </div>

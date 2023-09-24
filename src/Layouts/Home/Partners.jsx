@@ -14,38 +14,25 @@ const Partners = () => {
       </div>
       <div className="grid lg:grid-cols-3 grid-cols-1">
         <h1 className="text-3xl font-semibold text-slate-800 lg:col-span-2 lg:py-5 py-4">
-          Ongoing partenships with world&#39;s <br />
-          top tech giants
+        Authentic Heal®️
         </h1>
         <p className="text-xs lg:py-5 py-4">
-          Our commitment is to maintaining collaborations with some of the
-          world&#39;s renowned and trusted tech providers ensures that our user
-          support and premium membership service experience is second to none
+        HealXYZ takes the safety and authenticity of its healing services 
+        seriously. Through a meticulous screening process, in combination
+        of our forum feedback we ensure that only genuine healers are 
+        granted our coveted ® trademark emoji. This rigorous authentication
+        procedure offers peace of mind to individuals seeking healing, as 
+        they can confidently identify and engage with accredited practitioners. 
+        By proudly displaying the ® trademark emoji, our healers symbolize 
+        their commitment to ethical and effective healing practices, safeguarding
+        our tribe against potential scams and untrusted services. At HealXYZ, 
+        trust and transparency are at the core of our mission, empowering 
+        individuals to embark on their healing journeys with confidence. 
+        <br />
+        Dr. Candy Terry (Ph.D. in Metaphysics)
         </p>
       </div>
       {/* React Marquee */}
-      <div className="px-10 py-10 mt-16 grid lg:grid-cols-4 grid-cols-2 place-items-center gap-10">
-        <div>
-          <p className={commonStyles}>
-            <BsGoogle className="inline text-xl" /> Google
-          </p>
-        </div>
-        <div>
-          <p className={commonStyles}>
-            <FaAtlassian className="inline text-xl" /> Atlassian
-          </p>
-        </div>
-        <div>
-          <p className={commonStyles}>
-            <SiNasa className="inline text-xl " /> NASA
-          </p>
-        </div>
-        <div>
-          <p className={commonStyles}>
-            <BsDiscord className="inline text-xl" /> Discord
-          </p>
-        </div>
-      </div>
     </div>
   );
 };

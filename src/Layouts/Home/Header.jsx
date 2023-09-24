@@ -17,13 +17,13 @@ const Header = () => {
     <div className="bg-gradient-to-r from-amber-100 via-sky-200 to-indigo-100 lg:w-full lg:max-h-screen w-full min-h-screen border border-transparent">
       <div className={`${inter.className} lg:my-20 my-10`}>
         <h1 className="text-center text-sm py-2 font-semibold">
-          Zig Forum Discussions
+          The Purpose Economy
         </h1>
         <div className="relative">
           <h1 className="lg:text-5xl text-4xl text-slate-800 font-bold text-center mt-8">
-            Enhancing the Hub for
-            <br /> Web Development
-            <br /> Communities
+            Get Paid To Heal
+            <br /> X, Y
+            <br /> & Z
           </h1>
           <Image
             className="absolute lg:z-20 lg:top-14 lg:left-20 top-16 left-0 lg:block md:block hidden"
@@ -43,16 +43,14 @@ const Header = () => {
         {/* sub-heading for lg */}
 
         <p className="text-center lg:text-sm text-xs my-3 lg:py-6 lg:px-5 lg:block hidden">
-          Ask questions,share ideas and build connections with each
-          <br /> other - all right next to your code. Zig Forum discussions
-          eanbles
-          <br /> healthy and productive developer collaborations
+          Ask questions, share knowledge and network with each
+          <br /> other in our Y forum.  
         </p>
 
         {/* sub-heading for sm */}
         <p className="text-center text-xs lg:hidden md:hidden my-3 py-3 px-2">
-          Ask questions,share ideas and build connections with each
-          <br /> other - all right next to your code.
+          Ask questions, share knowledge and network with each
+          <br /> other in our Y forum.  
         </p>
 
         {/* buttons */}
@@ -61,10 +59,13 @@ const Header = () => {
             Go to Discussions{" "}
             <BsChevronRight className="inline-block font-bold" />
           </button>
-          <button className={secondaryBtn}>
-            Watch video <BsChevronRight className="inline-block font-bold" />
-          </button>
-        </div>
+          {/* Wrap the "Watch video" button with an anchor element */}
+          <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE" target="_blank" rel="noopener noreferrer">
+         <button className={secondaryBtn}>
+         Watch video <BsChevronRight className="inline-block font-bold" />
+         </button>
+         </a>
+         </div>
 
         {/* stats */}
         <div className="flex flex-col items-center mt-10">

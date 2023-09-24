@@ -1,10 +1,18 @@
 import FooterItems from "@/app/components/FooterItems";
 import React from "react";
-import { PiShootingStarBold } from "react-icons/pi";
-import { PiDevToLogoFill } from "react-icons/pi";
+import { FaHeart } from "react-icons/fa";
 import { BsApple, BsGooglePlay } from "react-icons/bs";
 
 const Footer = () => {
+  const footerItems = [
+    { label: "Forum", url: "https://y.healxyz.com" },
+    { label: "Features", url: "/features" },
+    { label: "Pricing", url: "/pricing" },
+    { label: "Careers", url: "/careers" },
+    { label: "Help", url: "/help" },
+    { label: "Privacy", url: "/privacy" },
+  ];
+
   return (
     <div className="bg-black text-white h-2/5">
       <div className="h-1 bg-sky-400"></div>
@@ -13,27 +21,19 @@ const Footer = () => {
         {/* left side */}
         <div>
           <h1 className="text-lg font-semibold">
-            <PiShootingStarBold className="inline-block text-2xl" />
-            Zig Forum
+            HealXYZ
           </h1>
           <p className="text-xs py-3">
-            Connect with expertise <br />
-            and get reliable solutions
+            Connect with authentic <br />
+            HealRs around the world
           </p>
           <div className="lg:mt-4">
-            <FooterItems
-              li1={"Overview"}
-              li2={"Features"}
-              li3={"Pricing"}
-              li4={"Careers"}
-              li5={"Help"}
-              li6={"Privacy"}
-            ></FooterItems>
+            <FooterItems items={footerItems} />
           </div>
         </div>
         {/* right side */}
         <div className="lg:place-self-end w-fit">
-          <h1 className="text-sm">Download the app</h1>
+          <h1 className="text-sm">Coming Soon </h1>
 
           <div className="flex gap-4">
             {/* google play */}
@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
 
           <h1 className="text-xs">
-            Loved by the <PiDevToLogoFill className="inline-block text-2xl" />
+            Made With <FaHeart className="inline-block text-2xl" />
           </h1>
         </div>
         <div></div>
